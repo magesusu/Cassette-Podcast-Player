@@ -1,7 +1,7 @@
 # Cassette Podcast Player
-##Demo (Our radio station's page): https://listen.ssr990.com/alt/
-Choose your music from the podcast and play it on your browser. 
-
+##Demo (Our radio station's page): https://listen.ssr990.com/alt/ 
+![Screen Shot](https://ssr990.com/wp-content/uploads/2017/02/ssr_player.png)
+Choose your music from the podcast and play it on your browser.
 #Features
 * Play your podcast.
 * Choose your episode from the playlist.
