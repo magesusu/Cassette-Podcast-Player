@@ -1,2 +1,19 @@
-# Cassette-Podcast-Player
-Choose your music from the podcast and play it on your browser. Enhanced "Old School Cassette Player with HTML5 Audio".
+# Cassette Podcast Player
+##Demo (Our radio station's page): https://listen.ssr990.com/alt/
+Choose your music from the podcast and play it on your browser. 
+
+#Features
+* Play your podcast.
+* Choose your episode from the playlist.
+
+# How to Use
+1. Open js/jquery.cassette.js and edit 'Podurl' to your stations one.
+2. Upload all files to PHP-enabled server.
+
+# Reference Sites
+
+Code released under the MIT license https://opensource.org/licenses/mit-license.php
+
+Original Code: https://tympanus.net/Development/CassettePlayer/
+
+Original PHP Parser Code: https://github.com/onigetoc/Podcast-parser-for-jPlayer
