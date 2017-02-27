@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Listen Our Podcast | Cassette Player</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cassette Podcast Player: Choose your music from the podcast and play it on your browser." />
+    <meta name="keywords" content="cassette, html5, audio, player, css3, buttons, sounds, vintage, old school, javascript, jquery" />
+    <meta name="author" content="Codrops" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/playlist.css" />
+    <link rel="stylesheet" type="text/css" href="css/knobKnob.css" />
+    <link href='https://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="js/modernizr.custom.69142.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><span>Podcast Music Player</span> Choose your Show</h1> </header>
+        <div id="vc-container" class="vc-container">
+            <audio id="audioElem"><span>HTML5 audio not supported</span></audio>
+            <div class="vc-tape-wrapper">
+                <div class="vc-tape">
+                    <img class="track-image" src="">
+                    <div class="track-title">The Newest Episode</div>
+                    <div class="vc-tape-back">
+                        <div class="vc-tape-wheel vc-tape-wheel-left">
+                            <div></div>
+                        </div>
+                        <div class="vc-tape-wheel vc-tape-wheel-right">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="vc-tape-front vc-tape-side-a"> <span>A</span> </div>
+                    <div class="vc-tape-front vc-tape-side-b"> <span>B</span> </div>
+                </div>
+                <div class="jp-playlist">
+                    <ul class="tracklist" style="display: block;"></ul>
+                </div>
+            </div>
+            <div class="vc-loader" style="display: none;"></div>
+            <div class="vc-buttons" style="display: none;">
+                <ul class="vc-controls">
+                    <li class="vc-control-play" id="vc-control-play">Play<span></span></li>
+                    <li class="vc-control-rewind" id="vc-control-rewind">Rew<span></span></li>
+                    <li class="vc-control-fforward" id="vc-control-fforward">FF<span></span></li>
+                    <li class="vc-control-stop" id="vc-control-stop">Stop<span></span></li>
+                </ul>
+                <div style="" class="vc-volume-wrap">
+                    <div class="vc-volume-control">
+                        <div class="vc-volume-knob">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- //vc-container -->
+        <div class="attribution" style="display: none;">
+            <p>Songs by <a href="http://freemusicarchive.org/music/Blue_Ducks/">Blue Ducks</a> and <a href="http://freemusicarchive.org/music/Blank__Kytt/">Blank & Kytt</a>:</p>
+            <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Blue_Ducks/Six/"><span property="dct:title">Six</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://freemusicarchive.org/music/Blue_Ducks/">Blue Ducks</a>) / <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">CC BY-NC-SA 3.0</a></div>
+            <div xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/" about="http://freemusicarchive.org/music/Blank__Kytt/Heavy_Crazy_Serious/"><span property="dct:title">Heavy, Crazy, Serious</span> (<a rel="cc:attributionURL" property="cc:attributionName" href="http://blankkytt.bandcamp.com/">Blank & Kytt</a>) / <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></div>
+            <p>Cassette tape PSD by <a href="http://manicho.deviantart.com/art/Cassette-PSD-File-86548493">Mauricio Estrella</a></p>
+        </div>
+        <!--//attribution-->
+    </div>
+    <!-- //container -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <!-- KnobKnob by Martin Angelov : https://github.com/martinaglv/KnobKnob -->
+    <script src="js/transform.js"></script>
+    <script src="js/knobKnob.jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.cassette.js"></script>
+    <script type="text/javascript" src="js/playlist.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Pangolin" rel="stylesheet">
+</body>
+
+</html>

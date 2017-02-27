@@ -1,0 +1,93 @@
+.jp-playlist {
+    margin: 15px;
+    position: relative;
+    color: #5c5f66;
+    font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    border-width: 0 1px;
+    box-shadow: 0 1px #d4d5d6, 0 -1px #d4d5d6;
+    display: inline-block;
+    /* position: absolute; */
+    top: 0;
+    right: 0;
+    /* left: 30%; */
+    width: 300px;
+    height: 350px;
+    overflow: auto;
+    -webkit-transition: left 0.4s ease-in-out;
+    transition: left 0.4s ease-in-out;
+    z-index: 1;
+    background-color: #ffffff;
+    border: solid #d4d5d6;
+}
+
+.vc-tape {
+    display: inline-block;
+    margin: 0;
+}
+
+.vc-volume-wrap {
+    position: relative;
+    margin-top: -100px;
+}
+
+.container > header {
+    margin: 10px 10px 30px 10px;
+}
+
+ul.vc-controls {
+    position: relative;
+    margin: 50px 0 0 -150px;
+    width: 360px;
+}
+
+.jp-playlist a:hover,
+.jp-playlist a:focus {
+    background-color: #f2f2f2;
+    text-decoration: none;
+}
+
+.jp-playlist a {
+    display: block;
+    outline: 0;
+    padding: 0.92857143em 1.42857143em;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+.jp-playlist-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+}
+
+.jp-playlist ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.jp-playlist li {
+    border-bottom: 1px solid #d4d5d6;
+}
+
+.jp-playlist a {
+    display: block;
+    outline: 0;
+    padding: 0.92857143em 1.42857143em;
+    color: rgba(0, 0, 0, 0.63);
+    text-decoration: none;
+    background: transparent;
+    box-sizing: inherit;
+}
+
+.jp-playlist-item-remove {
+    display: inline-block;
+    float: right;
+}
